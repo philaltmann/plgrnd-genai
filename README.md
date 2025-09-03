@@ -35,9 +35,78 @@ Langflow is a visual programming interface for building, testing, and deploying 
 
 
 # Next steps
-* Embeddings
-* Tool usage in LLM's (example, background, etc.)
-* Huggingface: https://huggingface.co/
+
+* Deployment on Vast.AI (Bigger hardware)
+    - Read through docs
+    - Find out how Volumes work
+    - Find out what the CLI Tool does
+    - Find out how to get data in/out efficiently. (re-deployments)
+
+* LLM Model Understanding in General 
+    - Context Size, Benchmarks, Capabilities
+    - How exactly does Reasoning Work? 
+    - Understand what Fine-Tuning is, How training works, Training Strategies
+    - Understand what model-alignment is
+    - Understand Tool usage in LLM's (example, background, etc.)
+    - How to measure quality in LLM Use cases? 
+    - How to estimate costs, impact of token size
+    - Can an llm understand a chart (i.e. bcg matrix, drawings of models and frameworks, drawings of data models)
+    - Legal Issues, Business Model, …?
+    - Categorize, Understand Information Sources to follow, track
+
+* Embeddings: 
+    - Understand embeddings, and portability of embeddings. 
+    - Understand the different models that are used for Embeddings. What are the differences? 
+    - What are the techniques used to generate embeddings from complex file types (pdf, word, web pages, ...)
+
+* Vector Databases, Knowledge Graphs
+    - Implement a working example. 
+    - How does one browse, maintain the content of a knowledge graph? 
+    - What are the differences of the available products? What are differentiating aspects? 
+    - How does one implement a knowledge graph? i.e. Neo4j?
+    - How can Knowledge Graphs be viewed? 
+
+* Multi-Agent Settings
+    - List / Unterstand differences of the different frameworks. 
+        - Microsoft AutoGen
+    - Context Handling: How are Agents collectively working on a topic? 
+    - Design patterns? There are multiple strategies or patterns that are usually followed.
+    - Welchen "Führungsstil" benötigen AI Agenten?
+
+* Technical Topics, Bolts and Pieces, Service Providers, "Facilitator"-Topics: 
+    - Huggingface: https://huggingface.co/
+        - Offering ?
+        - How to find a model for a specific use case
+    - Task mining, ui path, automate ui interactions
+    - Understand Components with which Langflow was built
+    - Understand Components with which Ollama was built
+    - MCP Server Protocol
+    - Protocols for agent to agent communication (a2a)
+    - How to run/implement scraping (state of the art, what is realistic)
+    - API Calls, API Integration into Agents, LLm usage (Tools)
+
+* Potential Use Cases
+    - Ideas: 
+        - Optimize/Automate my own research
+        - Learn a language
+        - Generate Software (Apps, Codebases, …)
+        - A simple company use case in CH / z.B. Vereinsverwaltung, Onlineshop, …
+        - Online Dating?
+        - Corporate Training, Teambuilding, MA Rating, etc.
+        - Backwards-calculation of a business case (not only as text, but in knowledge graph, or in excel)
+        - LLM, welches policies, guidelines etc. zugänglicher formuliert.
+    - Meta-Level: find a use case that ...
+        - Has a potential user base
+        - Can be used as demonstrator
+        - Maybe is a bit provocant…?
+        - These: Es soll möglich werden das eine 1 personen firma 1 bn USD umsatz macht -> Interesting…
+        - Guideline: Do not place agents in existing structures, or re-model what humans are doing today. Instead, re-think the process (how would one build it, based on the agents possibilities? 
+
+
+
+
+
+
 
 
 # Example: 3-Level Bullet Points
